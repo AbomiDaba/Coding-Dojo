@@ -1,0 +1,22 @@
+h1 {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-style: oblique;
+}
+span {
+    color: turquoise;
+}
+h2{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style:initial;
+}
+h3 {
+color:blue ;
+text-align: right;
+background-color: cadetblue;
+font-style: normal;
+text-decoration:underline;
+}

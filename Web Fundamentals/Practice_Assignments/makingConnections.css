@@ -1,0 +1,242 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h4{
+    font-family: monospace;
+}
+.nav-bar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 45px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: 130px;
+    align-items: center;
+
+}
+.nav-links a{
+    color: grey;
+    text-decoration: none;
+}
+.nav-links h1{
+    color: white;
+font-family: monospace;
+}
+button{
+    background-color: rgb(64, 170, 206);
+    color: white;
+    height: 25px;
+    width: 75px;
+    margin-top: 10px;
+    margin-right: 90px;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.col-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: space-between;
+    height: 550px;
+    width: 500px;
+    
+}
+.user-card{
+    border: 1px solid black;
+    height: 260px;
+}
+.user-card .card-content, #abomi{
+    padding-left: 20px;
+}
+.box-1{
+    width: inherit;
+    height: 60px;
+    background-color: rgb(64, 170, 206);
+}
+.card-content{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+    height: 150px;
+}
+#user-pic{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#map{
+    height: 20px;
+    width: 15px;
+    margin-right: 10px;
+}
+#gear{
+    height: 20px;
+    width: 20px;
+}
+.education{
+    border: 1px solid black;
+    height: 120px;
+    margin-bottom: 90px;
+}
+.education-header{
+    background-color: grey;
+    /* height: 40px; */
+    padding: 10px;
+}
+.education-content{
+    padding: 10px;
+}
+#lightgray{
+    color: rgb(75, 72, 72);
+}
+.education-header h3{
+    padding-left: 10px;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 220px;
+
+}
+.your-connects img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+.connect-requests{
+    border: 1px solid black;
+    height: 150px;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Connect-request-header{
+    background-color: grey;
+    height: 50px;
+    width: inherit;
+}
+.oval-shape{
+    background-color: rgb(184, 178, 178);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 20px ;
+
+}
+.Connect-request-header h3{
+    display: inline;
+    
+}
+.connect-requests img{
+    height: 40%;
+    border-radius: 50%;
+    
+}
+.todd-info{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    flex: 1;
+}
+.phil-info{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    flex: 1;
+}
+.accept-close-circle{
+    margin-right: 5px;
+}
+.accept-close-circle img{
+    height: 20px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.name-pic{
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+    margin-right: 5px;
+    padding: 10px;
+
+}
+.connect-requests h4{
+    height: 90px;
+}
+
+
+
+
+
+
+.your-connects{
+    border: 1px solid black;
+    height: 250px;
+}
+.your-connects-header{
+    display: flex;
+    background-color: grey;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+.your-connects-header h4{
+    background-color: lightgray;
+    border-radius: 60%;
+    width: 33px;
+    height: 20px;
+    text-align: center;
+}
+.pic-and-name{
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 170px;
+}
+.view-more{
+    border-top: 1px solid black;
+    padding-left: 5px;
+}
+.connect-name{
+    display: flex;
+    height: 50px;
+
+}
+.pic-and-name img{
+    height: 30px;
+    margin-right: 5px;
+}
+.edit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+.name-pic img{
+    width: 20px;
+    height: auto;
+}

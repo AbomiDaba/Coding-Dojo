@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    background-color: darkgray;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+li{
+    margin-right: 15px;
+}
+.nav-title{
+    margin-right: auto;
+    color: white;
+    padding-left: 20px;
+    font-family: monospace;
+    height: 35px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+button{
+    color: white;
+    background-color: teal;
+    box-shadow: 3px 3px black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+a{
+    color:rgb(105, 98, 98);
+    text-decoration: none;
+}
+.active{
+    color: white;
+}

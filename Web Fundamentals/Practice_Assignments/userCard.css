@@ -1,0 +1,60 @@
+.container{
+    border: 2px solid black;
+    width: 700px;
+    height: 320px;
+    margin: 100px 0px 20px 350px;
+}
+.content{
+    padding-left: 40px;
+}
+.box1{
+    background-color: teal;
+    height: 80px;
+    margin-left: 0px;
+}
+.user{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1px;
+    position: relative;
+    bottom: 45px;
+}
+.map{
+    width: 15px;
+    height: 25px;
+    display: inline-block;
+}
+.gear{
+    width: 20px;
+    height: 20px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    width: 70px;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+}
+.skills h4{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.edit{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+h1{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.details{
+    margin-top: 1px;
+    position: relative;
+    bottom: 45px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="makingConnections.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="nav-links">
+            <h1>Profile</h1>
+            <h4><a href="#">Home</a></h4>
+            <h4><a href="#">My Profile</a></h4>
+            <h4><a href="#">Find Connections</a></h4>
+        </div>
+        <button>Sign Out</button>
+    </div>
+    <div class="content">
+        <div class="col-1">
+            <div class="user-card">
+                <div class="box-1">
+                    <img src="user-circle.png" alt="pictue of me" id="user-pic">
+                </div>
+                <div class="card-content">
+                    <h2 class="user-name">Jane Doe</h2>
+                    <h3><img src="map-marker.png" alt="map image" id="map"> Seattle</h3>
+                    <h4>Developer|Engineer|Problem Solver<br>
+                        Master of Shadows and the Internet!</h4>
+                    <div class="edit">
+                        <img src="gear.png" alt="gear image" id="gear">
+                        <a href="#" onclick="nameChange()">edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="education">
+                    <h3 class="education-header">Education</h3>
+                <div class="education-content">
+                <h3>Coding Dojo-Full Stack Bootcamp</h3>
+                <h4 id="lightgray" >Dec 2019 - Mar 2020</h4>
+                <h4>Triple black belt in python, Mern and C#</h4>
+            </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="connect-requests">
+                <div class="Connect-request-header">
+                    <h3 class="oval-shape">2</h3>
+                    <h3>Connection Requests</h3>
+                </div>
+                <div class="todd-info">
+                    <div class="name-pic">
+                        <img class="todd-pic" src="todd-s.jpg" alt="Todd pic">
+                        <h4 class="todd-name">Todd E</h4>
+                    </div>
+                    <div class="accept-close-circle">
+                        <img src="accept-circle.png" alt="accept-circle" onclick="removeTodd()">
+                        <img  src="close-circle.png" alt="close-circle" onclick="removeTodd()">
+                    </div>
+                </div>
+                <div class="phil-info">
+                    <div class="name-pic">
+                        <img class="phil-pic" src="phil-s.jpg" alt="Phil pic">
+                        <h4 class="phil-name">Phil K</h4>
+                    </div>
+                    <div class="accept-close-circle">
+                        <img src="accept-circle.png" alt="accept-circle" onclick="removePhil()">
+                        <img src="close-circle.png" alt="close-circle" onclick="removePhil()">
+                    </div>
+                </div>
+            </div>
+            <div class="your-connects">
+                <div class="your-connects-header">
+                    <h4>500+</h4>
+                    <h3>Your connections</h3>
+                </div>
+                <div class="pic-and-name">
+                    <div class="connect-name">
+                        <img src="adrien-s.jpg" alt="Adrien pic">
+                        <h4>Adrien D</h4>
+                    </div>
+                    <div class="connect-name">
+                        <img src="anne-s.jpg" alt="anne pic">
+                        <h4>Anne J</h4>
+                    </div>
+                    <div class="connect-name">
+                        <img src="alayne-s.jpg" alt="alayne pic">
+                        <h4>Alayne T</h4>
+                    </div>
+                    <div class="connect-name">
+                        <img src="arry-s.jpg" alt="arry pic">
+                        <h4>Arry Y</h4>
+                    </div>
+                </div>
+                <div class="view-more">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="makingConnections.js"></script>
+</body>
+</html>

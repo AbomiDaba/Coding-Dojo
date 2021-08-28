@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-bar{
+    background-color: lightslategray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    width: 490px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin-top: 20px;
+}
+.ninja-card{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.grammer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-and-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:2px solid black;
+    padding: 20px;
+    height: 20%;
+}
+.likes{
+    background-color: gold;
+    margin-top: 5px;
+}
+#blue{
+    background-color: blue;
+    color: white;
+}
+#green{
+    background-color:lightgreen;
+    margin-top: 5px;
+}
+h5{
+    margin-left: 5px;
+}
+.box-shadow{
+    box-shadow: 2px 3px black;
+}
