@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="makingConnections.css">
 </head>
 <body>
+    <!-- Navagation bar -->
+
     <div class="nav-bar">
         <div class="nav-links">
             <h1>Profile</h1>
@@ -18,19 +20,22 @@
         <button>Sign Out</button>
     </div>
     <div class="content">
+
+        <!-- collumn 1 -->
+
         <div class="col-1">
             <div class="user-card">
                 <div class="box-1">
-                    <img src="user-circle.png" alt="pictue of me" id="user-pic">
+                    <img src="./images_practice/user-circle.png" alt="pictue of me" id="user-pic">
                 </div>
                 <div class="card-content">
-                    <h2 class="user-name">Jane Doe</h2>
-                    <h3><img src="map-marker.png" alt="map image" id="map"> Seattle</h3>
+                    <h2>Jane Doe</h2>
+                    <h3><img src="images_practice/map-marker.png" alt="map image" id="map"> Seattle</h3>
                     <h4>Developer|Engineer|Problem Solver<br>
                         Master of Shadows and the Internet!</h4>
                     <div class="edit">
-                        <img src="gear.png" alt="gear image" id="gear">
-                        <a href="#" onclick="nameChange()">edit profile</a>
+                        <img src="images_practice/gear.png" alt="gear image" id="gear">
+                        <a href="#">edit profile</a>
                     </div>
                 </div>
             </div>
@@ -43,53 +48,61 @@
             </div>
             </div>
         </div>
+        
+        <!-- collumn 2 -->
+        
+        <!-- connect-requests -->
+
         <div class="col-2">
             <div class="connect-requests">
                 <div class="Connect-request-header">
                     <h3 class="oval-shape">2</h3>
                     <h3>Connection Requests</h3>
                 </div>
-                <div class="todd-info">
+                <div class="todd-and-phil">
                     <div class="name-pic">
-                        <img class="todd-pic" src="todd-s.jpg" alt="Todd pic">
-                        <h4 class="todd-name">Todd E</h4>
+                        <img src="images_practice/todd-s.jpg" alt="Todd pic">
+                        <h4>Todd E</h4>
                     </div>
                     <div class="accept-close-circle">
-                        <img src="accept-circle.png" alt="accept-circle" onclick="removeTodd()">
-                        <img  src="close-circle.png" alt="close-circle" onclick="removeTodd()">
+                        <img src="images_practice/accept-circle.png" alt="accept-circle">
+                        <img  src="images_practice/close-circle.png" alt="close-circle">
                     </div>
                 </div>
-                <div class="phil-info">
+                <div class="todd-and-phil">
                     <div class="name-pic">
-                        <img class="phil-pic" src="phil-s.jpg" alt="Phil pic">
-                        <h4 class="phil-name">Phil K</h4>
+                        <img src="images_practice/phil-s.jpg" alt="Phil pic"> 
+                        <h4>Phil K</h4>
                     </div>
                     <div class="accept-close-circle">
-                        <img src="accept-circle.png" alt="accept-circle" onclick="removePhil()">
-                        <img src="close-circle.png" alt="close-circle" onclick="removePhil()">
+                        <img src="images_practice/accept-circle.png" alt="accept-circle">
+                        <img src="images_practice/close-circle.png" alt="close-circle">
                     </div>
                 </div>
             </div>
+
+            <!-- your-connections -->
+
             <div class="your-connects">
                 <div class="your-connects-header">
                     <h4>500+</h4>
                     <h3>Your connections</h3>
                 </div>
                 <div class="pic-and-name">
-                    <div class="connect-name">
-                        <img src="adrien-s.jpg" alt="Adrien pic">
+                    <div class="connect-pics">
+                        <img src="images_practice/adrien-s.jpg" alt="Adrien pic">
                         <h4>Adrien D</h4>
                     </div>
-                    <div class="connect-name">
-                        <img src="anne-s.jpg" alt="anne pic">
+                    <div class="connect-pics">
+                        <img src="images_practice/anne-s.jpg" alt="anne pic">
                         <h4>Anne J</h4>
                     </div>
-                    <div class="connect-name">
-                        <img src="alayne-s.jpg" alt="alayne pic">
+                    <div class="connect-pics">
+                        <img src="images_practice/alayne-s.jpg" alt="alayne pic">
                         <h4>Alayne T</h4>
                     </div>
-                    <div class="connect-name">
-                        <img src="arry-s.jpg" alt="arry pic">
+                    <div class="connect-pics">
+                        <img src="images_practice/arry-s.jpg" alt="arry pic">
                         <h4>Arry Y</h4>
                     </div>
                 </div>
@@ -99,6 +112,5 @@
             </div>
         </div>
     </div>
-    <script src="makingConnections.js"></script>
 </body>
 </html>
